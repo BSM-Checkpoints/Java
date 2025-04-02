@@ -17,5 +17,5 @@ Olá, mundo! <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques
  
 ---
  
-**Obrigado por visitar meu repositório!** ✨
+**Obrigado por visitar nosso repositório!** ✨
  
