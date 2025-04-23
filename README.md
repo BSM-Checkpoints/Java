@@ -1,70 +1,47 @@
-# 🚀 Projeto Checkpoint - **DespesaFamiliar** 
+# 🚀 Projeto Checkpoint - **Aluno**
 
 🎓 **Professor:** Gilberto  
 👥 **Grupo:** *Felipe Modesto - Moisés Barsoti - Sofia Siqueira*  
-📋 **Nota Obtida:** 9,5 / 10,0 🎉  
+📋 **Nota Obtida:**  / 10,0 🎉  
 
 ---
 
 ## 💡 **Descrição do Projeto**
 
-Este projeto foi desenvolvido para calcular:
-1. **Total de Despesas:** Inclui gastos com luz, água, internet e academia para todos os moradores da residência.
-2. **Renda Familiar Líquida:** O valor restante da renda familiar após subtração das despesas totais.
+Este projeto tem como foco a aplicação de conceitos de *Domain Driven Design* em Java, por meio da criação de uma classe `Aluno`, conforme modelo UML fornecido, e de uma classe `MainAluno`, responsável por instanciar objetos e interagir com o usuário.
+
+O projeto demonstra:
+- Aplicação de regras de negócio específicas.
+- Utilização da API `LocalDate` para cálculo de idade.
+- Instanciação de objetos com diferentes tipos de construtores.
+- Interação com o usuário utilizando a classe `JOptionPane`.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/c64497ec-ecda-46dc-86a6-09b43b2a8e85" width="30%">
+  <img src="https://github.com/user-attachments/assets/1ee5df95-dfd4-4f31-82eb-7993d0559671" width="30%">
 </div>
 
-🔢 Utilizamos uma classe chamada `DespesaFamiliar` que segue o modelo UML apresentado anteriormente.
+---
+
+## 🛠️ **Atributos da Classe `Aluno`**
+
+| **Atributo**           | **Descrição**                                          |
+|------------------------|---------------------------------------------------------|
+| `registroMatricula`    | 🆔 Número do registro do aluno (entre 80000 e 599999). |
+| `nome`                 | 🧑 Nome completo do aluno.                             |
+| `anoDeNascimento`      | 📆 Ano de nascimento (entre 1945 e o ano atual).       |
 
 ---
 
-## 🛠️ **Atributos da Classe**
+## 🎞️ **Apresentação em Vídeo**
 
-| **Atributo**                   | **Descrição**                                  |
-|--------------------------------|-----------------------------------------------|
-| `rendaFamiliar`                | 💰 Total recebido mensalmente pela família.   |
-| `numeroDeMoradores`            | 👨‍👩‍👧‍👦 Número de pessoas na residência.      |
-| `gastoComLuz`                  | 💡 Valor gasto com energia elétrica mensal.   |
-| `gastoComAgua`                 | 🚿 Valor gasto com água mensal.               |
-| `gastoComInternet`             | 🌐 Valor gasto com plano de Internet.         |
-| `valorMensalidadeDaAcademia`   | 🏋️ Mensalidade da academia por pessoa.        |
+O vídeo explicativo deve conter:
+- 📢 Apresentação de todos os membros.
+- 🧱 Estrutura de pacotes e classes.
+- 🧮 Explicação detalhada dos atributos, métodos, regras de negócio e execução do projeto.
+- ✅ Execução com dados válidos e ❌ dados inválidos.
 
 ---
 
-## 🧮 **Métodos Implementados**
+## 📤 **Entrega**
 
-### 🔗 `calcularTotalDeDespesas()`
-- **Descrição:** Calcula o total de despesas mensais, considerando que **todos os moradores frequentam a academia**.
-
-### 🔗 `calcularRendaFamiliarLiquida()`
-- **Descrição:** Retorna o saldo restante após subtrair todas as despesas da renda familiar.
-
----
-
-## 🏁 **Orientações para Execução**
-
-1. **🎯 Comentários**: Inclua no topo de cada classe os **nomes e RMs de todos os integrantes** do grupo.
-2. **✍️ Entrada de Dados**: Utilize a classe `Scanner` para capturar os seguintes valores:
-   - **Renda familiar**, **número de moradores** e os **gastos mensais** (luz, água, internet, academia).
-3. **📋 Atribuição**: Transfira os dados capturados para os respectivos atributos da classe.
-4. **📊 Exibição**: Apresente os resultados formatados utilizando o método `printf`:
-   - Renda familiar total.
-   - Total das despesas.
-   - Renda familiar líquida (valores exibidos com **3 casas decimais**).
-
----
-
-## 🎨 **Formato de Saída**
-
-Após a execução, o sistema deve exibir:
-- 💰 **Renda Total da Família**
-- 📉 **Total de Gastos com Despesas**
-- 📈 **Renda Familiar Líquida**  
-
-Exemplo:
-```plaintext
-Renda Total: R$ 5,000.000  
-Total de Despesas: R$ 3,200.000  
-Renda Líquida: R$ 1,800.000  
+- O link do vídeo:  
