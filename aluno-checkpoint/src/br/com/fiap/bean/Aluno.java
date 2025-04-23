@@ -8,9 +8,20 @@ import java.time.LocalDate;
 
 public class Aluno {
     // Atributos
-    private int registroMatricula;
     private String nomeCompleto;
+    private int registroMatricula;
     private int anoDeNascimento;
+
+    // Construtores
+    public Aluno() {
+    }
+
+    public Aluno(String nomeCompleto, int anoDeNascimento , int registroMatricula) {
+        this.nomeCompleto = nomeCompleto;
+        setAnoDeNascimento(anoDeNascimento);
+        setRegistroMatricula(registroMatricula);
+    }
+
 
     // Métodos get/set
 
@@ -64,7 +75,6 @@ public class Aluno {
     // Metodos da Classe
 
     public int calcularIdade(LocalDate dataAtual) {
-         int idade = dataAtual.getYear() - anoDeNascimento;
-         return idade;
+         return dataAtual.getYear() - anoDeNascimento;
     }
 }
