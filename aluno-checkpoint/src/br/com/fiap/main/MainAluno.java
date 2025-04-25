@@ -12,10 +12,7 @@ import java.time.LocalDate;
 public class MainAluno {
     public static void main(String[] args) {
         // Declaramos o Aluno
-        Aluno aluno1;
-        Aluno aluno2;
-        Aluno aluno3;
-        Aluno aluno4;
+        Aluno aluno1, aluno2, aluno3, aluno4;
 
         // auxiliar do JOptionpane
         String auxiliar;
