@@ -2,7 +2,7 @@
 
 🎓 **Professor:** Gilberto  
 👥 **Grupo:** *Felipe Modesto - Moisés Barsoti - Sofia Siqueira*  
-📋 **Nota Obtida:**  / 10,0 🎉  
+📋 **Nota Obtida:** 9 / 10,0 🎉  
 
 ---
 
